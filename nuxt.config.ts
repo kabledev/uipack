@@ -10,6 +10,7 @@ export default defineNuxtConfig({
       publicDir: path.join(__dirname, "docs"),
     },
   },
+  ssr: false, // spa
   build: {},
   app: {
     baseURL: process.env.NODE_ENV === "production" ? "/uipack" : "/",
