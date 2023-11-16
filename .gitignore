@@ -1,5 +1,9 @@
 node_modules/
 package-lock.json
-/guide/.nuxt
-/guide/node_modules
+
+#nuxt
+/app/.nuxt
+/app/.output
+/app/dist
+/app/node_modules
 
