@@ -9,13 +9,16 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "git": "git add . && git push"
+    "git": "git add . && git commit -m update && git push",
+    "deploy": "push-dir --dir=app/dist --branch=guide --cleanup"
   },
+  "dependencies": {},
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "nuxt": "^3.8.1",
     "vue": "^3.3.8",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "push-dir": "^0.4.1"
   },
   "repository": {
     "type": "git",
