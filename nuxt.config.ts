@@ -1,5 +1,5 @@
 // nuxt.config.js
-
+//x
 import path from "path";
 
 export default defineNuxtConfig({
