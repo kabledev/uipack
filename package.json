@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "git": "git add . && git commit -m `update` && git push"
+    "git": "git add . && git commit -m \"update\" && git push"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
